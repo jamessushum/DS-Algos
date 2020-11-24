@@ -1,5 +1,7 @@
 function factorial(num) {
-  debugger;
+  // Edge case when num equals 0, return 1 since 0! = 1
+  if (num === 0) return 1;
+
   // Base case; return 1 once num reaches 1
   if (num === 1) return 1;
 
@@ -23,4 +25,4 @@ function factorial2(num) {
   return total;
 }
 
-console.log(factorial2(4));
+// console.log(factorial2(4));
