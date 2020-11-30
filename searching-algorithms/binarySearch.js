@@ -12,7 +12,8 @@
 // If you never find the value, return -1
 
 // Time complexity: O(log n)
-// When input data doubles, just 1 extra step is added
+// Log n = x or 2^x = n
+// When input data doubles (n doubles), only one extra step is added (x is increased by one)
 
 function binarySearch(arr, val) {
   let left = 0;
@@ -36,7 +37,7 @@ function binarySearch(arr, val) {
 // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 8
 
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const val = 5;
+const val = 8;
 console.log(binarySearch(arr, val));
 // console.log(binarySearch2(arr, val));
 
