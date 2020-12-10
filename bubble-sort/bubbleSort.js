@@ -6,8 +6,11 @@
 // Return the sorted array
 
 // Time complexity:
-// In general, O(n^2)
-// If array is nearly sorted, O(n)
+// In general worst case, O(n^2)
+// If array is nearly sorted best case, O(n)
+// On average, O(n^2)
+// Faster than more complex sorting algorithms ONLY when the size of the array is small and nearly sorted
+// Space complexity: O(1)
 
 function bubbleSort(arr) {
   // Starting i at arr.length instead of arr.length - 1 so we can iterate through the entire array on the 1st pass in the inner for-loop
