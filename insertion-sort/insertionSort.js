@@ -8,8 +8,10 @@
 // Repeat until the array is sorted
 
 // Time complexity:
-// In general, O(n^2)
-// Good for online data (sorting live data as they're received)
+// In general worst case, O(n^2)
+// Best case, O(n)
+// Good for online data (sorting live data as they're received) since left side of array is always sorted
+// Space complexity: O(1)
 
 function insertionSort(arr) {
   // Iterate through array starting in the second element
