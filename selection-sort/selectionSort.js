@@ -9,8 +9,10 @@
 // Repeat with the next element until the array is sorted
 
 // Time complexity:
-// O(n^2), on average will have to iterate through each element in the array for every element
+// Worst, Best and Average case, O(n^2). On average will have to iterate through each element in the array for every element
 // Better than bubble sort when you want to reduce number of swaps (writing to memory) since selection sort swaps at the end of each loop
+// Better than most advanced sorting algorithms ONLY when the size of the array is small and nearly sorted
+// Space complexity: O(1)
 
 function selectionSort(arr) {
   // Declaring swap function
